@@ -7,6 +7,5 @@ mod control_flow;
 mod exercise;
 
 fn main() {
-    
     exercise::main();
 }
