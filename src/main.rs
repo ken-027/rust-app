@@ -1,11 +1,13 @@
 #![allow(unused)]
-mod guessing_games;
-mod variables;
-mod data_types;
-mod functions;
-mod control_flow;
-mod exercise;
+use crate::learning::{control_flow, data_types, enum_operator as operate, functions, ownership};
 
+mod exercise;
+mod helpers;
+mod learning;
 fn main() {
-    exercise::main();
+    // exercise::guessing_games::start();
+    // enum_operator::operator::main();
+    // learning::control_flow::main();
+    // exercise::one::main();
+    operate::operator::main();
 }

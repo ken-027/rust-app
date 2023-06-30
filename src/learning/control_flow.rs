@@ -1,4 +1,4 @@
-use learn_rust::spaces;
+use crate::helpers::spaces;
 
 fn is_senior(num: u32) -> bool {
     !(num <= 60 && num >= 1)
